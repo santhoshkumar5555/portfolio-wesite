@@ -1,0 +1,39 @@
+.button a:hover {
+    box-shadow: 0 0 5px darkred,
+        0 0 25px darkred, 0 0 50px darkred,
+        0 0 100px darkred, 0 0 200px darkred
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color:darkgoldenrod;
+    color: black;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+b.button{
+    margin-left: 20px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: darkred;
+    color: black;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px yellow,
+    0 0 25px yellow;
+
+}
